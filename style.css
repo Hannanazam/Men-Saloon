@@ -1,0 +1,270 @@
+body{
+    background-color: aliceblue !important;
+}
+/* navbar */
+
+.navbar{
+    font-weight: bold;
+    position: absolute !important;
+    top: 20px;
+    left: 10px;
+}
+.navbar-collapse .navbar-nav{
+    margin-left: 50%;
+}
+.navbar a{
+    padding: 5px 20px 5px 20px !important;
+    font-size: 15px;
+    color: white !important;
+}
+.nav-item a:hover{
+    border-bottom: 1px solid black;
+    color: red !important;
+}
+.navbar-brand{
+    font-size: 25px !important;
+}
+.navbar-brand span{
+    color: red;
+}
+.navbar-brand .span1{
+    color: black;
+}
+
+/* navbar */
+
+/* carousel */
+.carousel img{
+	display: block;
+	width: 100%;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    
+}
+.carousel img:hover{
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.carousel-control-prev ,.carousel-control-next{
+    border-radius: 50%;
+    margin-top: 350px !important;
+    margin-bottom: 350px !important;
+}
+.carousel-control-prev-icon:hover ,.carousel-control-next-icon:hover{
+    height: 30px !important;
+    width: 30px !important;
+}
+.container img{
+    height: 200px !important;
+}
+.cards{
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+}
+.cardss{
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+    
+}
+
+
+/* carousel */
+
+/* about */
+.about-h1 h1 span{
+    font-size: 60px !important;
+    letter-spacing: 5px !important;
+    line-height: 20px;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.about-h1 h1{
+    font-size: 40px !important;
+    font-weight: normal;
+}
+
+/* about */
+
+/* service */
+.serviceback img:hover{
+    padding: 20px 20px;
+    transition: .2s;
+}
+/* service */
+
+
+
+
+/* team */
+.for-hover{
+    transition: all 1s;
+}
+.for-hover:hover{
+    background-color: rgb(66, 66, 66) !important;
+    transition: all 0.5s;
+}
+.cardmargin{
+    margin-left: 10px !important;
+}
+/* team */
+
+
+
+/* contact */
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], input[type=email] , select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    outline: none;
+  }
+  input[type=text]:focus, input[type=email]:focus , select:focus, textarea:focus{
+    border-left: 2px solid rgb(255, 0, 0);
+    border-right: 2px solid rgb(255, 0, 0);
+    transition: all .5s;
+  } 
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .btn-danger{
+      margin: 0px auto !important;
+      padding: 10px 40px 10px 40px !important;
+  }
+
+/* contact */
+
+.image-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+
+@media (max-width:991px){
+
+    /* navbar */
+    .navbar a{
+        font-size: 13px !important;
+        text-align: right;
+    }
+    .navbar .navbar-brand span{
+        font-size: 18px !important;
+        /* margin-left: -30px !important; */
+    }
+    .navbar .navbar-brand .span1{
+        margin-left: -30px !important;
+
+    }
+    .navbar a:hover{
+        border: none !important;
+    }
+    .navbar-toggler{
+        margin-left: 150px !important;
+    }
+    .navbar-toggler-icon{
+        height: 15px !important;
+        width: 15px !important;
+    }
+.navbar{
+    margin-top:-20px!important;
+}
+
+
+
+    /* navbar */
+
+    /* carousel */
+.carousel img{
+    -webkit-filter: grayscale(0%) !important;
+	filter: grayscale(0%) !important;
+}
+.carousel-caption{
+    font-size: 12px !important;
+}
+.carousel-caption h5{
+    font-size: 17px;
+    visibility: hidden;
+}
+.classss h5, .classss p{
+    text-align: left !important;
+    margin-left: -40px !important;
+    visibility: hidden;
+}
+.cards{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.cards{
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+}
+.cardss{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    
+}
+    /* carousel */
+
+    /* about */
+.about-h1 h1{
+    font-size: 30px !important;
+}
+.about-h1 h1 span{
+    font-size: 50px !important;
+}
+.setmargin{
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+}
+    /* about */
+
+/* team */
+
+.cardmargin{
+    margin-left: 0px !important;
+}
+
+/* team */
+
+
+}
